@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifolio</title>
+    <!--Icones-->
+    <link rel="stylesheet" href="Assets/Fonts/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!--styles-->
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- fonts-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Letícia<span>Dev</span>.</a>
+        <!--menu-->
+
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#projects">Projetos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!--/menu-->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="Assets/fotos/desenvolvendo.jpg"
+              alt="Mulher sorrindo em frente a uma tela de computador."
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Codificando meu caminho</h2>
+
+            <p>
+            Você sonha e eu crio.
+            </p>
+
+            <a
+              href="https://api.whatsapp.com/send?phone=+5513991621691&text=Oi! Gostaria de um orçamento"
+              class="button"
+              target="_blank"
+              >Orçamento</a
+            >
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="Assets/fotos/criando.jpg"
+              alt="Uma mulher olhando para a tela do computador"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre mim</h2>
+            <p>
+              Me chamo Letícia Roque, cursei Análise e desenvolvimento de Sistemas no SENAC e sou Assistente de Desenvolvimento na Mutant.
+            </p>
+            <br />
+            <p>
+              Tenho inglês e espanhol básico, tenho conhecimento em HTML, CSS, MySql, AWS, Java, Genesys Cloud entre outros.
+            </p>
+            
+          </div>
+        </div>
+      </section>
+      <div class="divider-2"></div>
+
+      <section class="section" id="Projects">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Projetos</h2>
+            <p>
+            Aqui estão alguns dos projetos que trabalhei nos últimos meses com os links para visualização no Github.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-node-dot-js"></i>
+              <a
+              href="https://github.com/letty-Rock/Biblioteca-Node"
+              class="button"
+              target="_blank"
+              >Biblioteca Node</a>  
+              
+              
+            </div>
+            <div class="card">
+              <i class="icon-node-dot-js"></i>
+              <a
+              href="https://github.com/letty-Rock/nodejs-api-rest"
+              class="button"
+              target="_click"
+              >APi Rest</a>  
+              
+            </div>
+            <div class="card">
+              <i class="icon-amazonaws"></i>
+              <a
+              href="https://github.com/letty-Rock/Rekognition_aws"
+              class="button"
+              target="_click"
+              >AWS Rekognition</a
+            >
+              
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+
+    
+      <div class="divider-2"></div>
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato conosco!</h2>
+            <p>
+              Entre em contato comigo.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5513&text=Oi! Gostaria de agendar um horário"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>13991621691</li>
+              <li><i class="icon-location"></i>R. Amauri souza, 346</li>
+              <li><i class="icon-mail"></i>leticisasantos.roque@outlook.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+    </main>
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home"> Letícia<span>Dev</span>. </a>
+          <p>@2021 LetíciaDev.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+        <div class="social">
+          <a href="https://instagram.com" target="_blank">
+            <i class="icon-instagram"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank">
+            <i class="icon-facebook"></i
+          ></a>
+          <a href="https://github.com" target="_blank">
+            <i class="icon-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <a href="#home" class="back-to-top"
+      ><i class="icon-arrow-with-circle-up"></i
+    ></a>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
